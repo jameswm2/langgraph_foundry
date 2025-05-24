@@ -4,7 +4,7 @@ import warnings
 import requests
 
 from langgraph.prebuilt import create_react_agent
-from langGraph_Vantage import VantageAPIConnector, PalantirFoundryChatModel
+from langGraph_foundry import VantageAPIConnector, PalantirFoundryChatModel
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 
 

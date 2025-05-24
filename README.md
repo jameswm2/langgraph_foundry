@@ -28,7 +28,7 @@ pip install -r requirements.txt   # langchain, langgraph, pydantic, requests …
 ```
 
 ```python
-from langGraph_Vantage import VantageAPIConnector, PalantirFoundryChatModel
+from langGraph_foundry import VantageAPIConnector, PalantirFoundryChatModel
 from langgraph.prebuilt import create_react_agent
 
 # 1  Connect to Foundry
