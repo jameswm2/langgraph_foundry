@@ -20,10 +20,10 @@ It wraps the Palantir “blockingContinue” session API in a LangChain‑compat
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your‑org/palantir-foundry-langchain-bridge.git
-cd palantir-foundry-langchain-bridge
-python -m venv .venv
-source .venv/bin/activate
+git clone https://github.com/jameswm2/langgraph_foundry.git
+cd langgraph_foundry
+conda create -n langgraph_foundry
+conda activate langgraph_foundry
 pip install -r requirements.txt   # langchain, langgraph, pydantic, requests …
 ```
 
