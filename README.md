@@ -1,4 +1,4 @@
-# langgraph_foundry -- palantir AIP agent wrapper to langgraph 
+# langgraph_foundry - Palantir Foundry AIP agent wrapper to langgraph 
 
 A lightweight utility that lets you **plug Palantir Foundry AIP agents straight into LangChain graphs or nodes**.  
 It wraps the Palantir “blockingContinue” session API in a LangChain‑compatible `BaseChatModel`, adds a mini ReAct loop, and lets you bind ordinary Python functions as tools.
